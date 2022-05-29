@@ -145,7 +145,7 @@
 
   h1, h2, h3 {
     display: flex;
-    margin: 0;
+    margin: 0.5vw 0 0 0;
     font-weight: 400;
     transition: 0.25s;
     text-transform: capitalize;
@@ -160,7 +160,6 @@
   }
   
   h3 {
-    margin: 0.5vw 0 0 0;
     font-size: 2vw;
   }
 
@@ -197,10 +196,12 @@
   }
 
   button {
+    display: flex;
+    align-items: center;
     border: none;
     background: var(--blue-dark);
     font-size: 1vw;
-    padding: 0.5vw 1vw;
+    padding: 1vw 2vw;
     cursor: pointer;
     border-radius: 0.5vw;
   }
