@@ -2,7 +2,7 @@
   <nav id="nav" :class="[{ collapsed: closed }, { hidden: !loaded }]">
     <div class="logo-content">
       <div class="logo">
-        <img src="../assets/qaxt.svg" :class="{ faded: closed }">
+        <img src="/src/assets/qaxt.svg" :class="{ faded: closed }">
         <span class="logo-name" :class="{ faded: closed }">Qaxt</span>
       </div>
       <span id="toggle" @click="closed = !closed">
@@ -24,7 +24,7 @@
       <li v-for="(item, index) in social">
         <a :href="item.link">
           <div class="social">
-            <img :src="`src/assets/${item.name}.svg`">
+            <img :src="`/src/assets/${item.name}.svg`">
           </div>
           <span class="label" :class="{ faded: closed }">{{ item.name }}</span>
         </a>

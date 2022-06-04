@@ -20,7 +20,6 @@
   }
 </script>
 
-
 <style>
   @font-face {
     font-family: 'Leon';

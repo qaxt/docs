@@ -4,7 +4,7 @@ import { createRouter, createWebHistory } from "vue-router"
 import App from './App.vue'
 import Home from './views/Home.vue'
 import Docs from './views/Docs.vue'
-// import Lost from './views/Lost.vue'
+import Lost from './views/Lost.vue'
 
 const router = createRouter({
   history: createWebHistory(), 
